@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Recognizing Full-Body Activity Execution Errors
+  using the Teslasuit
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Polona
+    family-names: Caserman
+    email: polona.caserman@tu-darmstadt.de
+    affiliation: Technical University of Darmstadt
+    orcid: 'https://orcid.org/0000-0002-3252-4533'
+  - given-names: Clemens
+    family-names: Krug
+    email: clemens.krug@stud.tu-darmstadt.de
+    affiliation: Technical University of Darmstadt
+  - given-names: Göbel
+    family-names: Stefan
+    email: stefan_peter.goebel@tu-darmstadt.de
+    orcid: 'https://orcid.org/0000-0003-3651-8744'
+    affiliation: Technical University of Darmstadt
