@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05ad92d1a98d1bd4ebe9a34ecdb784ca, type: 3}
+  m_Name: TutorialList_Mocap
+  m_EditorClassIdentifier: 
+  elements:
+  - {fileID: 11400000, guid: 5dc201cc400544d409b84ae7791428f3, type: 2}
+  - {fileID: 11400000, guid: 9b8cf4f74ae945441b3da74d62db1e00, type: 2}
+  - {fileID: 11400000, guid: 3eb096dc4df155842a176eb43fa995f8, type: 2}
+  - {fileID: 11400000, guid: 4f42fa9f15e20fe478049269c44cc68e, type: 2}
+  - {fileID: 11400000, guid: 7555006e99cb8e648baab949a5a0c48f, type: 2}
+  - {fileID: 11400000, guid: 1183cab116a46394ca6800e382420242, type: 2}

@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ca3af40e00916941be394651c9a5a05, type: 3}
+  m_Name: HapticRaycast5
+  m_EditorClassIdentifier: 
+  title: '2.5 Haptic Raycasts - '
+  popupPrefab: {fileID: 114090066203516090, guid: 9ed0c9e14c436f447a8f2b9e078d08aa, type: 3}

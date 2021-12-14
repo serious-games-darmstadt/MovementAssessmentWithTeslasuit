@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: c90a4fa7f28ea804ebb9dfefdeb439f7
+timeCreated: 1522313114
+licenseType: Pro
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - material: {fileID: 2100000, guid: a43bfb32fabae7e41890a37e5a3b363a, type: 2}
+  - CubeMesh: {fileID: 4300000, guid: c7663f42b3d72f6439933f7364299ce3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
