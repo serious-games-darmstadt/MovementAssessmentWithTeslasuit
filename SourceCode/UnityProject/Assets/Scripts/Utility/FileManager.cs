@@ -35,7 +35,7 @@ namespace Thesis
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
             
-            string path = $"{Application.dataPath}/data/{subjectID}/{subjectID}_{datasetType}.tsdat";
+            string path = $"{Application.dataPath}/Data/{subjectID}/{subjectID}_{datasetType}.tsdat";
             FileStream file;
 
             if(File.Exists(path)) file = File.OpenWrite(path);
@@ -65,7 +65,7 @@ namespace Thesis
                 sb.Append(suitData.ToCSV(seperator)).Append("\n");
             }
             
-            string path = $"{Application.dataPath}/data/{subjectID}/{subjectID}_{datasetType}.csv";
+            string path = $"{Application.dataPath}/Data/{subjectID}/{subjectID}_{datasetType}.csv";
 
             using(var writer = new StreamWriter(path, false))
             {
@@ -77,7 +77,7 @@ namespace Thesis
 
         public List<SuitData> load(string subjectID, string datasetType)
         {
-            string path = $"{Application.dataPath}/data/{subjectID}/{subjectID}_{datasetType}.tsdat";
+            string path = $"{Application.dataPath}/Data/{subjectID}/{subjectID}_{datasetType}.tsdat";
             FileStream file;
             
             if(File.Exists(path)) file = File.OpenRead(path);
