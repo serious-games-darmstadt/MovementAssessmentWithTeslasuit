@@ -4,7 +4,7 @@ We developed a method for movement assessment using a full-body haptic motion ca
 
 ## Authors
 - [Clemens Krug](https://github.com/ClemensKrug)
-- [Polona Caserman](https://github.com/PolonaTUDA)
+- [Polona Caserman](https://github.com/CatCuddler)
 - Stefan Göbel
 
 ## Citation
