@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90f23aa3c631946a3de41fe0b66c16, type: 3}
+  m_Name: TeslaSuitMan
+  m_EditorClassIdentifier: 
+  m_avatar: {fileID: 9000000, guid: 0b5013d150001eb41b1d9b7c01741889, type: 3}
+  m_armsTPoseToIPoseDegrees: 83
+  m_bones:
+  - boneIndex: 0
+    boneName: Maniken_skeletool:pelvis
+    iPoseRotation: {x: -0.45664638, y: 0.53988343, z: -0.45664638, w: 0.53988343}
+    tPoseRotation: {x: -0.45664638, y: 0.53988343, z: -0.45664638, w: 0.53988343}
+    tPosePosition: {x: 0.000492433, y: 1.1261108, z: 0}
+  - boneIndex: 1
+    boneName: Maniken_skeletool:hip_l
+    iPoseRotation: {x: 0.025480516, y: 0.02665868, z: 0.6904825, w: 0.72240853}
+    tPoseRotation: {x: 0.025480516, y: 0.02665868, z: 0.6904825, w: 0.72240853}
+    tPosePosition: {x: -0.10343228, y: 1.110733, z: 0}
+  - boneIndex: 2
+    boneName: Maniken_skeletool:hip_r
+    iPoseRotation: {x: -0.72240853, y: 0.6904825, z: -0.026658673, w: 0.025480516}
+    tPoseRotation: {x: -0.72240853, y: 0.6904825, z: -0.026658673, w: 0.025480516}
+    tPosePosition: {x: 0.10441713, y: 1.1107299, z: 0}
+  - boneIndex: 3
+    boneName: Maniken_skeletool:knee_l
+    iPoseRotation: {x: -0.480943, y: -0.5289674, z: 0.44615856, w: 0.53835905}
+    tPoseRotation: {x: -0.480943, y: -0.5289674, z: 0.44615856, w: 0.53835905}
+    tPosePosition: {x: -0.12494696, y: 0.6234848, z: 0.0015899688}
+  - boneIndex: 4
+    boneName: Maniken_skeletool:knee_r
+    iPoseRotation: {x: -0.53835905, y: 0.44615856, z: 0.5289674, w: -0.480943}
+    tPoseRotation: {x: -0.53835905, y: 0.44615856, z: 0.5289674, w: -0.480943}
+    tPosePosition: {x: 0.1259321, y: 0.62348497, z: 0.0015899763}
+  - boneIndex: 5
+    boneName: Maniken_skeletool:foot_l
+    iPoseRotation: {x: 0.22240563, y: 0.66844976, z: 0.19767177, w: 0.6816428}
+    tPoseRotation: {x: 0.22240563, y: 0.66844976, z: 0.19767177, w: 0.6816428}
+    tPosePosition: {x: -0.14485545, y: 0.17862496, z: -0.053843617}
+  - boneIndex: 6
+    boneName: Maniken_skeletool:foot_r
+    iPoseRotation: {x: -0.6816428, y: 0.19767174, z: -0.66844976, w: 0.22240563}
+    tPoseRotation: {x: -0.6816428, y: 0.19767174, z: -0.66844976, w: 0.22240563}
+    tPosePosition: {x: 0.14584003, y: 0.17862494, z: -0.0538437}
+  - boneIndex: 7
+    boneName: Maniken_skeletool:spine_01
+    iPoseRotation: {x: 0.48426288, y: -0.51525676, z: -0.48426288, w: 0.51525676}
+    tPoseRotation: {x: 0.48426288, y: -0.51525676, z: -0.48426288, w: 0.51525676}
+    tPosePosition: {x: 0.000492433, y: 1.30544, z: 0.030168109}
+  - boneIndex: 8
+    boneName: Maniken_skeletool:spine_02
+    iPoseRotation: {x: 0.45102987, y: -0.54458433, z: -0.45102987, w: 0.54458433}
+    tPoseRotation: {x: 0.45102987, y: -0.54458433, z: -0.45102987, w: 0.54458433}
+    tPosePosition: {x: 0.000492433, y: 1.4651219, z: 0.022915538}
+  - boneIndex: 12
+    boneName: Maniken_skeletool:clavicle_l
+    iPoseRotation: {x: -0.038825624, y: 0.016962942, z: 0.9737439, w: -0.22366944}
+    tPoseRotation: {x: -0.038825624, y: 0.016962942, z: 0.9737439, w: -0.22366944}
+    tPosePosition: {x: -0.08672376, y: 1.8090601, z: -0.05893954}
+  - boneIndex: 13
+    boneName: Maniken_skeletool:clavicle_r
+    iPoseRotation: {x: -0.25665307, y: -0.96533155, z: 0.016808974, w: 0.0445187}
+    tPoseRotation: {x: -0.25665307, y: -0.96533155, z: 0.016808974, w: 0.0445187}
+    tPosePosition: {x: 0.0867242, y: 1.8090589, z: -0.058939576}
+  - boneIndex: 14
+    boneName: Maniken_skeletool:shoulder_l
+    iPoseRotation: {x: 0.017610561, y: 0.027945133, z: -0.68044025, w: -0.73205906}
+    tPoseRotation: {x: 0.031706534, y: 0.009260556, z: -0.0245426, w: -0.99915314}
+    tPosePosition: {x: -0.19011296, y: 1.7746367, z: -0.064265504}
+  - boneIndex: 15
+    boneName: Maniken_skeletool:shoulder_r
+    iPoseRotation: {x: -0.66966, y: -0.7420786, z: 0.020547163, w: 0.021290682}
+    tPoseRotation: {x: -0.009829521, y: -0.9995141, z: 0.029496547, w: 0.0023308164}
+    tPosePosition: {x: 0.20484747, y: 1.7693087, z: -0.06508958}
+  - boneIndex: 16
+    boneName: Maniken_skeletool:elbow_l
+    iPoseRotation: {x: -0.014962355, y: -0.06474988, z: -0.6559356, w: -0.75188607}
+    tPoseRotation: {x: -0.05411071, y: -0.038580436, z: 0.0069480836, w: -0.9977654}
+    tPosePosition: {x: -0.51070005, y: 1.7558932, z: -0.06803572}
+  - boneIndex: 17
+    boneName: Maniken_skeletool:elbow_r
+    iPoseRotation: {x: -0.64936244, y: -0.7577451, z: -0.018533641, w: -0.061707675}
+    tPoseRotation: {x: 0.015753359, y: -0.9977981, z: -0.05476962, w: -0.033935554}
+    tPosePosition: {x: 0.5132023, y: 1.7526804, z: -0.068350315}
+  - boneIndex: 18
+    boneName: Maniken_skeletool:hand_01_l
+    iPoseRotation: {x: -0.010289012, y: -0.07620693, z: -0.6236374, w: -0.7779227}
+    tPoseRotation: {x: -0.05820225, y: -0.050257906, z: 0.04839039, w: -0.9958643}
+    tPosePosition: {x: -0.8256317, y: 1.761545, z: -0.04479003}
+  - boneIndex: 19
+    boneName: Maniken_skeletool:hand_01_r
+    iPoseRotation: {x: -0.62880737, y: -0.77613944, z: -0.020051701, w: -0.042514298}
+    tPoseRotation: {x: 0.04333669, y: -0.9979544, z: -0.04318866, w: -0.018554665}
+    tPosePosition: {x: 0.82815856, y: 1.7614353, z: -0.046416104}
+  m_characterModel: {fileID: 919132149155446097, guid: 0b5013d150001eb41b1d9b7c01741889, type: 3}

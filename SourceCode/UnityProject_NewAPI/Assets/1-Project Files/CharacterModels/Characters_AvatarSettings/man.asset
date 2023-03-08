@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90f23aa3c631946a3de41fe0b66c16, type: 3}
+  m_Name: man
+  m_EditorClassIdentifier: 
+  m_avatar: {fileID: 9000000, guid: fb0c5675d82019b49be06e7367d0557d, type: 3}
+  m_armsTPoseToIPoseDegrees: 83
+  m_bones:
+  - boneIndex: 0
+    boneName: pelvis
+    iPoseRotation: {x: -0.16450614, y: 0.00000016143048, z: -0.00000003138235, w: 0.98637605}
+    tPoseRotation: {x: -0.16450614, y: 0.00000016143048, z: -0.00000003138235, w: 0.98637605}
+    tPosePosition: {x: -9.142687e-12, y: 0.85121185, z: 0.021811604}
+  - boneIndex: 1
+    boneName: thigh_L
+    iPoseRotation: {x: -0.0034247572, y: 0.002399683, z: 0.99964905, w: -0.026157953}
+    tPoseRotation: {x: -0.0034247572, y: 0.002399683, z: 0.99964905, w: -0.026157953}
+    tPosePosition: {x: -0.115628496, y: 0.9317533, z: 0.010788858}
+  - boneIndex: 2
+    boneName: thigh_R
+    iPoseRotation: {x: 0.003421302, y: 0.0023916662, z: 0.99964905, w: 0.026159905}
+    tPoseRotation: {x: 0.003421302, y: 0.0023916662, z: 0.99964905, w: 0.026159905}
+    tPosePosition: {x: 0.1156285, y: 0.9317533, z: 0.010788858}
+  - boneIndex: 3
+    boneName: calf_L
+    iPoseRotation: {x: -0.022881288, y: -0.008417904, z: 0.9994687, w: -0.021634735}
+    tPoseRotation: {x: -0.022881288, y: -0.008417904, z: 0.9994687, w: -0.021634735}
+    tPosePosition: {x: -0.09283465, y: 0.4963659, z: 0.012959152}
+  - boneIndex: 4
+    boneName: calf_R
+    iPoseRotation: {x: 0.022877742, y: -0.00842607, z: 0.99946856, w: 0.021636501}
+    tPoseRotation: {x: 0.022877742, y: -0.00842607, z: 0.99946856, w: 0.021636501}
+    tPosePosition: {x: 0.092832915, y: 0.49636608, z: 0.01295194}
+  - boneIndex: 5
+    boneName: foot_L
+    iPoseRotation: {x: 0.0024688262, y: 0.5055393, z: 0.86088693, w: 0.057425782}
+    tPoseRotation: {x: 0.0024688262, y: 0.5055393, z: 0.86088693, w: 0.057425782}
+    tPosePosition: {x: -0.075577036, y: 0.10126026, z: 0.006695546}
+  - boneIndex: 6
+    boneName: foot_R
+    iPoseRotation: {x: -0.002471339, y: 0.5055326, z: 0.8608911, w: -0.057422005}
+    tPoseRotation: {x: -0.002471339, y: 0.5055326, z: 0.8608911, w: -0.057422005}
+    tPosePosition: {x: 0.07557378, y: 0.10126055, z: 0.0066818}
+  - boneIndex: 7
+    boneName: spine01
+    iPoseRotation: {x: 0.07574731, y: 0.00000023256285, z: 0.00000004498461, w: 0.9971271}
+    tPoseRotation: {x: 0.07574731, y: 0.00000023256285, z: 0.00000004498461, w: 0.9971271}
+    tPosePosition: {x: 0.0000000015435708, y: 1.0182247, z: -0.035490394}
+  - boneIndex: 8
+    boneName: spine02
+    iPoseRotation: {x: -0.048612, y: 0.00000011947972, z: -0.00000005092326, w: 0.9988178}
+    tPoseRotation: {x: -0.048612, y: 0.00000011947972, z: -0.00000005092326, w: 0.9988178}
+    tPosePosition: {x: -0.000000004701212, y: 1.1315278, z: -0.018176317}
+  - boneIndex: 12
+    boneName: clavicle_L
+    iPoseRotation: {x: -0.10165268, y: 0.020304829, z: 0.69529307, w: 0.7112119}
+    tPoseRotation: {x: -0.10165268, y: 0.020304829, z: 0.69529307, w: 0.7112119}
+    tPosePosition: {x: -0.03389066, y: 1.4563912, z: -0.016597271}
+  - boneIndex: 13
+    boneName: clavicle_R
+    iPoseRotation: {x: -0.1016525, y: -0.0203048, z: -0.6952932, w: 0.7112118}
+    tPoseRotation: {x: -0.1016525, y: -0.0203048, z: -0.6952932, w: 0.7112118}
+    tPosePosition: {x: 0.03389062, y: 1.4563915, z: -0.016597271}
+  - boneIndex: 14
+    boneName: upperarm_L
+    iPoseRotation: {x: -0.10548691, y: 0.031763237, z: 0.9935803, w: 0.025734572}
+    tPoseRotation: {x: -0.057958066, y: 0.093687, z: 0.72709537, w: 0.67764026}
+    tPosePosition: {x: -0.18668757, y: 1.4583098, z: -0.034499407}
+  - boneIndex: 15
+    boneName: upperarm_R
+    iPoseRotation: {x: -0.10548642, y: -0.031763226, z: -0.99358034, w: 0.02573538}
+    tPoseRotation: {x: -0.05795771, y: -0.09368667, z: -0.7270949, w: 0.6776409}
+    tPosePosition: {x: 0.18668757, y: 1.4583099, z: -0.034499407}
+  - boneIndex: 16
+    boneName: lowerarm_L
+    iPoseRotation: {x: -0.084211506, y: 0.022789182, z: 0.9923242, w: 0.08764979}
+    tPoseRotation: {x: -0.047970116, y: 0.07286832, z: 0.68512833, w: 0.7231797}
+    tPosePosition: {x: -0.45165902, y: 1.4412738, z: -0.019156218}
+  - boneIndex: 17
+    boneName: lowerarm_R
+    iPoseRotation: {x: -0.084212, y: -0.022789339, z: -0.992324, w: 0.08764966}
+    tPoseRotation: {x: -0.047970384, y: -0.072868764, z: -0.6851283, w: 0.72317946}
+    tPosePosition: {x: 0.45165908, y: 1.441274, z: -0.019156218}
+  - boneIndex: 18
+    boneName: hand_L
+    iPoseRotation: {x: 0.7083329, y: 0.040037148, z: 0.7023124, w: 0.058473043}
+    tPoseRotation: {x: 0.5570394, y: -0.43936953, z: 0.48725545, w: 0.50916}
+    tPosePosition: {x: -0.7367445, y: 1.4574425, z: -0.010452747}
+  - boneIndex: 19
+    boneName: hand_R
+    iPoseRotation: {x: 0.7083353, y: -0.040033896, z: -0.70231, w: 0.058475386}
+    tPoseRotation: {x: 0.557039, y: 0.43937355, z: -0.48725212, w: 0.50916016}
+    tPosePosition: {x: 0.73674434, y: 1.4574426, z: -0.010452628}
+  m_characterModel: {fileID: 919132149155446097, guid: fb0c5675d82019b49be06e7367d0557d, type: 3}

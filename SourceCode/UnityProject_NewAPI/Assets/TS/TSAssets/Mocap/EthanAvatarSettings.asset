@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90f23aa3c631946a3de41fe0b66c16, type: 3}
+  m_Name: EthanAvatarSettings
+  m_EditorClassIdentifier: 
+  m_avatar: {fileID: 9000000, guid: 2a9594eb6af54a04e80aa72c712cc4b3, type: 3}
+  m_armsTPoseToIPoseDegrees: 83
+  m_bones:
+  - boneIndex: 0
+    boneName: EthanHips
+    iPoseRotation: {x: -0.49999934, y: 0.49999934, z: -0.50000066, w: 0.50000066}
+    tPoseRotation: {x: -0.49999934, y: 0.49999934, z: -0.50000066, w: 0.50000066}
+    tPosePosition: {x: 0.00000042162256, y: 0.7787106, z: -0.033025585}
+  - boneIndex: 1
+    boneName: EthanLeftUpLeg
+    iPoseRotation: {x: 0.46973756, y: 0.52732074, z: -0.4960472, w: -0.5051897}
+    tPoseRotation: {x: 0.46973756, y: 0.52732074, z: -0.4960472, w: -0.5051897}
+    tPosePosition: {x: -0.07436246, y: 0.77871054, z: -0.033025675}
+  - boneIndex: 2
+    boneName: EthanRightUpLeg
+    iPoseRotation: {x: 0.49604848, y: 0.50518966, z: -0.4697362, w: -0.5273208}
+    tPoseRotation: {x: 0.49604848, y: 0.50518966, z: -0.4697362, w: -0.5273208}
+    tPosePosition: {x: 0.07436337, y: 0.7787107, z: -0.033025496}
+  - boneIndex: 3
+    boneName: EthanLeftLeg
+    iPoseRotation: {x: 0.55199426, y: 0.4404802, z: -0.5741915, w: -0.41422638}
+    tPoseRotation: {x: 0.55199426, y: 0.4404802, z: -0.5741915, w: -0.41422638}
+    tPosePosition: {x: -0.091631636, y: 0.4220909, z: -0.009132072}
+  - boneIndex: 4
+    boneName: EthanRightLeg
+    iPoseRotation: {x: 0.5741925, y: 0.4142267, z: -0.5519926, w: -0.44048107}
+    tPoseRotation: {x: 0.5741925, y: 0.4142267, z: -0.5519926, w: -0.44048107}
+    tPosePosition: {x: 0.09163354, y: 0.42209116, z: -0.009131834}
+  - boneIndex: 5
+    boneName: EthanLeftFoot
+    iPoseRotation: {x: 0.5416768, y: 0.541676, z: -0.45451772, w: -0.4545186}
+    tPoseRotation: {x: 0.5416768, y: 0.541676, z: -0.45451772, w: -0.4545186}
+    tPosePosition: {x: -0.10739849, y: 0.10235894, z: -0.098533556}
+  - boneIndex: 6
+    boneName: EthanRightFoot
+    iPoseRotation: {x: 0.45451945, y: 0.45451888, z: -0.5416752, w: -0.5416758}
+    tPoseRotation: {x: 0.45451945, y: 0.45451888, z: -0.5416752, w: -0.5416758}
+    tPosePosition: {x: 0.10740151, y: 0.102359295, z: -0.0985333}
+  - boneIndex: 7
+    boneName: EthanSpine
+    iPoseRotation: {x: -0.47792143, y: 0.52114475, z: -0.47792128, w: 0.5211435}
+    tPoseRotation: {x: -0.47792143, y: 0.52114475, z: -0.47792128, w: 0.5211435}
+    tPosePosition: {x: 0.00000039587096, y: 0.82369363, z: -0.033143714}
+  - boneIndex: 8
+    boneName: EthanSpine1
+    iPoseRotation: {x: -0.47792143, y: 0.52114475, z: -0.47792128, w: 0.5211435}
+    tPoseRotation: {x: -0.47792143, y: 0.52114475, z: -0.47792128, w: 0.5211435}
+    tPosePosition: {x: 0.00000021154914, y: 0.9720458, z: -0.04610685}
+  - boneIndex: 12
+    boneName: EthanLeftShoulder
+    iPoseRotation: {x: 0.19164369, y: 0.64926964, z: 0.7115734, w: 0.18810867}
+    tPoseRotation: {x: 0.19164369, y: 0.64926964, z: 0.7115734, w: 0.18810867}
+    tPosePosition: {x: -0.026027136, y: 1.2288654, z: -0.06847264}
+  - boneIndex: 13
+    boneName: EthanRightShoulder
+    iPoseRotation: {x: 0.71157366, y: 0.1881058, z: 0.1916429, w: 0.64927053}
+    tPoseRotation: {x: 0.71157366, y: 0.1881058, z: 0.1916429, w: 0.64927053}
+    tPosePosition: {x: 0.026026921, y: 1.2288654, z: -0.0684726}
+  - boneIndex: 14
+    boneName: EthanLeftArm
+    iPoseRotation: {x: -0.10700577, y: 0.72024906, z: 0.67682767, w: -0.10814606}
+    tPoseRotation: {x: 0.39710888, y: 0.6103388, z: 0.5785737, w: 0.367483}
+    tPosePosition: {x: -0.14602192, y: 1.1882442, z: -0.06491891}
+  - boneIndex: 15
+    boneName: EthanRightArm
+    iPoseRotation: {x: 0.6768265, y: -0.108147606, z: -0.10700655, w: 0.7202497}
+    tPoseRotation: {x: 0.5785738, y: 0.36748102, z: 0.39710873, w: 0.6103398}
+    tPosePosition: {x: 0.14602162, y: 1.1882443, z: -0.064918526}
+  - boneIndex: 16
+    boneName: EthanLeftForeArm
+    iPoseRotation: {x: 0.020748217, y: 0.5887582, z: 0.77627736, w: -0.22433689}
+    tPoseRotation: {x: 0.40566248, y: 0.42720562, z: 0.73004746, w: 0.34635854}
+    tPosePosition: {x: -0.39165118, y: 1.1729887, z: -0.06419139}
+  - boneIndex: 17
+    boneName: EthanRightForeArm
+    iPoseRotation: {x: 0.77627635, y: -0.22433802, z: 0.020746762, w: 0.58875924}
+    tPoseRotation: {x: 0.73004746, y: 0.34635702, z: 0.4056621, w: 0.42720738}
+    tPosePosition: {x: 0.39165086, y: 1.1729889, z: -0.06419044}
+  - boneIndex: 18
+    boneName: EthanLeftHand
+    iPoseRotation: {x: 0.18417509, y: -0.11660008, z: 0.97414607, w: -0.059357706}
+    tPoseRotation: {x: 0.060677428, y: -0.2093664, z: 0.7689239, w: 0.60103244}
+    tPosePosition: {x: -0.55292356, y: 1.1710284, z: -0.054168485}
+  - boneIndex: 19
+    boneName: EthanRightHand
+    iPoseRotation: {x: 0.97414654, y: -0.059360087, z: 0.18417451, w: -0.1165973}
+    tPoseRotation: {x: 0.7689258, y: 0.60103095, z: 0.06067884, w: -0.20936394}
+    tPosePosition: {x: 0.552923, y: 1.1710287, z: -0.054167233}
+  m_characterModel: {fileID: 100168, guid: 2a9594eb6af54a04e80aa72c712cc4b3, type: 3}

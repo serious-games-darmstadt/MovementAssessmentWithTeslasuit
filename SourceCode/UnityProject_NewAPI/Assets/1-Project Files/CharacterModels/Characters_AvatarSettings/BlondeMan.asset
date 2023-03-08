@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f90f23aa3c631946a3de41fe0b66c16, type: 3}
+  m_Name: BlondeMan
+  m_EditorClassIdentifier: 
+  m_avatar: {fileID: 9000000, guid: c89b0341506c7a04cbfc308c7017de41, type: 3}
+  m_armsTPoseToIPoseDegrees: 83
+  m_bones:
+  - boneIndex: 0
+    boneName: mixamorig:Hips
+    iPoseRotation: {x: 2.7105054e-16, y: 0.000000023283064, z: 0.000000011641532, w: 1}
+    tPoseRotation: {x: 2.7105054e-16, y: 0.000000023283064, z: 0.000000011641532, w: 1}
+    tPosePosition: {x: -0.018668244, y: 2.00437, z: -0.033024188}
+  - boneIndex: 1
+    boneName: mixamorig:LeftUpLeg
+    iPoseRotation: {x: -0.000021151754, y: -0.008861551, z: 0.9999579, w: -0.002383936}
+    tPoseRotation: {x: -0.000021151754, y: -0.008861551, z: 0.9999579, w: -0.002383936}
+    tPosePosition: {x: -0.20391221, y: 1.8659847, z: -0.0064040255}
+  - boneIndex: 2
+    boneName: mixamorig:RightUpLeg
+    iPoseRotation: {x: -0.000019140092, y: 0.0059108525, z: 0.9999773, w: 0.003237723}
+    tPoseRotation: {x: -0.000019140092, y: 0.0059108525, z: 0.9999773, w: 0.003237723}
+    tPosePosition: {x: 0.16573448, y: 1.8602531, z: -0.031420793}
+  - boneIndex: 3
+    boneName: mixamorig:LeftLeg
+    iPoseRotation: {x: 0.00007921349, y: -0.030074004, z: 0.9995443, w: 0.002632727}
+    tPoseRotation: {x: 0.00007921349, y: -0.030074004, z: 0.9995443, w: 0.002632727}
+    tPosePosition: {x: -0.19984765, y: 1.0136719, z: -0.021511476}
+  - boneIndex: 4
+    boneName: mixamorig:RightLeg
+    iPoseRotation: {x: -0.00010502521, y: -0.030204207, z: 0.9995377, w: -0.0034752365}
+    tPoseRotation: {x: -0.00010502521, y: -0.030204207, z: 0.9995377, w: -0.0034752365}
+    tPosePosition: {x: 0.16024198, y: 1.012133, z: -0.02139399}
+  - boneIndex: 5
+    boneName: mixamorig:LeftFoot
+    iPoseRotation: {x: -0.01707961, y: 0.41137442, z: 0.91052204, w: 0.03780345}
+    tPoseRotation: {x: -0.01707961, y: 0.41137442, z: 0.91052204, w: 0.03780345}
+    tPosePosition: {x: -0.20435539, y: 0.15952003, z: -0.072957}
+  - boneIndex: 6
+    boneName: mixamorig:RightFoot
+    iPoseRotation: {x: 0.0198909, y: 0.41508478, z: 0.9085228, w: -0.04353655}
+    tPoseRotation: {x: 0.0198909, y: 0.41508478, z: 0.9085228, w: -0.04353655}
+    tPosePosition: {x: 0.1661817, y: 0.15951824, z: -0.07297002}
+  - boneIndex: 7
+    boneName: mixamorig:Spine
+    iPoseRotation: {x: -0.050025426, y: 0.00028786456, z: -0.0057465998, w: 0.9987314}
+    tPoseRotation: {x: -0.050025426, y: 0.00028786456, z: -0.0057465998, w: 0.9987314}
+    tPosePosition: {x: -0.016720226, y: 2.2024179, z: -0.07192169}
+  - boneIndex: 8
+    boneName: mixamorig:Spine1
+    iPoseRotation: {x: -0.02147838, y: 0.000042166015, z: -0.0019616438, w: 0.9997675}
+    tPoseRotation: {x: -0.02147838, y: 0.000042166015, z: -0.0019616438, w: 0.9997675}
+    tPosePosition: {x: -0.014015771, y: 2.4374208, z: -0.095524564}
+  - boneIndex: 12
+    boneName: mixamorig:LeftShoulder
+    iPoseRotation: {x: -0.45233795, y: 0.54349846, z: -0.5299352, w: -0.46815467}
+    tPoseRotation: {x: -0.45233795, y: 0.54349846, z: -0.5299352, w: -0.46815467}
+    tPosePosition: {x: -0.14246544, y: 2.9044447, z: -0.08069669}
+  - boneIndex: 13
+    boneName: mixamorig:RightShoulder
+    iPoseRotation: {x: 0.44193628, y: 0.5519895, z: -0.5441712, w: 0.45152834}
+    tPoseRotation: {x: 0.44193628, y: 0.5519895, z: -0.5441712, w: 0.45152834}
+    tPosePosition: {x: 0.11344846, y: 2.9076495, z: -0.08566907}
+  - boneIndex: 14
+    boneName: mixamorig:LeftArm
+    iPoseRotation: {x: 0.7057881, y: -0.0431675, z: 0.7057879, w: 0.043167915}
+    tPoseRotation: {x: 0.50000036, y: -0.49999988, z: 0.49999994, w: 0.50000006}
+    tPosePosition: {x: -0.4050746, y: 2.9121852, z: -0.12123874}
+  - boneIndex: 15
+    boneName: mixamorig:RightArm
+    iPoseRotation: {x: 0.705788, y: 0.04316771, z: -0.70578796, w: 0.043168105}
+    tPoseRotation: {x: 0.5000002, y: 0.5, z: -0.49999985, w: 0.50000024}
+    tPosePosition: {x: 0.37680262, y: 2.9122586, z: -0.13989931}
+  - boneIndex: 16
+    boneName: mixamorig:LeftForeArm
+    iPoseRotation: {x: 0.7057881, y: -0.0431675, z: 0.7057879, w: 0.043167915}
+    tPoseRotation: {x: 0.50000036, y: -0.49999988, z: 0.49999994, w: 0.50000006}
+    tPosePosition: {x: -0.95635134, y: 2.9121852, z: -0.121238545}
+  - boneIndex: 17
+    boneName: mixamorig:RightForeArm
+    iPoseRotation: {x: 0.705788, y: 0.04316771, z: -0.705788, w: 0.043168068}
+    tPoseRotation: {x: 0.5000002, y: 0.5, z: -0.4999999, w: 0.50000024}
+    tPosePosition: {x: 0.9352295, y: 2.9122586, z: -0.13989893}
+  - boneIndex: 18
+    boneName: mixamorig:LeftHand
+    iPoseRotation: {x: 0.7057881, y: -0.0431675, z: 0.7057879, w: 0.043167915}
+    tPoseRotation: {x: 0.50000036, y: -0.49999988, z: 0.49999994, w: 0.50000006}
+    tPosePosition: {x: -1.4840847, y: 2.9121847, z: -0.121237874}
+  - boneIndex: 19
+    boneName: mixamorig:RightHand
+    iPoseRotation: {x: 0.705788, y: 0.04316771, z: -0.70578796, w: 0.043168105}
+    tPoseRotation: {x: 0.5000002, y: 0.5, z: -0.49999985, w: 0.50000024}
+    tPosePosition: {x: 1.4383662, y: 2.9122586, z: -0.13989814}
+  m_characterModel: {fileID: 919132149155446097, guid: c89b0341506c7a04cbfc308c7017de41, type: 3}

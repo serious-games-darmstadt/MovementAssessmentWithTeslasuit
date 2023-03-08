@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adcc1810375978e408bca065b2ab1f88, type: 3}
+  m_Name: LeftHandAvatarSettings
+  m_EditorClassIdentifier: 
+  HandModel: {fileID: 400158, guid: 589345d6111851146bb8872394e897b5, type: 3}
+  HandAvatar: {fileID: 9000000, guid: 589345d6111851146bb8872394e897b5, type: 3}
+  HandFingers:
+  - transform: {fileID: 400038, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 20
+  - transform: {fileID: 400040, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 21
+  - transform: {fileID: 400042, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 22
+  - transform: {fileID: 400002, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 23
+  - transform: {fileID: 400004, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 24
+  - transform: {fileID: 400006, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 25
+  - transform: {fileID: 400010, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 26
+  - transform: {fileID: 400012, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 27
+  - transform: {fileID: 400014, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 28
+  - transform: {fileID: 400028, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 29
+  - transform: {fileID: 400030, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 30
+  - transform: {fileID: 400032, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 31
+  - transform: {fileID: 400020, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 32
+  - transform: {fileID: 400022, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 33
+  - transform: {fileID: 400024, guid: 589345d6111851146bb8872394e897b5, type: 3}
+    boneIndex: 34
+  Side: 1

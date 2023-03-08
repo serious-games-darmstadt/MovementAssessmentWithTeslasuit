@@ -1,0 +1,22 @@
+# Changelog
+
+## [2.1.3] - 2022-08-12
+
+- Updated TsSDK libraries (2.1.3)
+- Removed Microsoft.Win32 dependency
+
+## [2.1.2] - 2022-08-11
+
+- Updated TsSDK libraries (2.1.2)
+
+## [2.1.1] - 2022-08-08
+
+- Updated TsSDK libraries (2.1.1)
+
+## [2.1.0] - 2022-07-22
+
+- Updated TsSDK libraries (2.1.0)
+
+## [2.0.0] - 2022-06-21
+
+### This is the first release of Teslasuit Unity plugin 2.0
