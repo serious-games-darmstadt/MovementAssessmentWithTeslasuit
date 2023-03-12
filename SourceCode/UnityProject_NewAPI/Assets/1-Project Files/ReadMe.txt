@@ -14,11 +14,12 @@ Before you begin:
 	- Set true in the following line: <without_jumps type="bool">true</without_jumps>
 
 
-1- All of the stuff here have been added and they
-aren't originally a part of the TeslaSuit's own API
+1- All of the stuff in "1- Project Files" have been 
+added and they aren't originally a part of the TeslaSuit's own API
 
-2- However some changes have been made in the package
+2- However some changes have been made in other packages
 as well. Those changes have been marked with   //*
+
 For an example TsHumanAnimator.cs
 
 3- API could get new upgrades over time. As long as
