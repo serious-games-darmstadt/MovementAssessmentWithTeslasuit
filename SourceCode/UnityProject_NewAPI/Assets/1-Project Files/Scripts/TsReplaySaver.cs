@@ -174,7 +174,8 @@ public class TsReplaySaver : MonoBehaviour
             dataGateway.PythonClient.pushSuitData(rp);
            
         }
-
+        //Movement recording needs to start with a delay, so that the starting pose could be assumed. 
+        timer=0;
        
 
         //foreach (KeyValuePair<TsHumanBoneIndex, Transform> kvp in avatarBoneInfo.BoneTransforms)
