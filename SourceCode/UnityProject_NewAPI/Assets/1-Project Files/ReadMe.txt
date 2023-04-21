@@ -1,3 +1,6 @@
+THIS BRANCH CONTAINS A REMAKE OF THE ORIGINAL PROJECT IN MASTER BRANCH
+THEREFORE IT IS COMPLETELY A DIFFERENT PROJECT. DO NOT MERGE!
+
 ******************NOTES************************
 
 Before you begin:
@@ -40,13 +43,12 @@ as well. Those changes have been marked with   //*
 
 For an example TsHumanAnimator.cs
 
-3- API could get new upgrades over time. As long as
-the data types stay same and enums dont change their
+3- API could get new upgrades over time. As long as the data types stay same and enums dont change their
 names or their order, the project should work fine
 
-4- Sometime Unity loses references in the scene for an 
-unknown reason. A video has been uploaded  to showcase
-every reference to every gameobject in the scene
+4- "1-ProjectFiles/Scenes/MotionCaptureCaptureScene" is the scene where changes have been made.
+Sometimes Unity loses references in a scene for an unknown reason. A video has been uploaded  to showcase
+every reference to every gameobject in this scene
 
 5- In order to work with Json.Net it needs to be downloaded and imported from asset store
 
@@ -57,6 +59,11 @@ if it is gizmos- ignore. If it is python, disable Datagateway component and try 
 still doesnt work go to "Assets/1-ProjectFiles/Plugins" there should be two plugins AsyncIO
 and NetMq. They are responsible for python communication as well. Check if they are there.
 If not, refer to the original thesis papers. Steps to use them are explained there.
+
+7- Due to Unity's internal 3D Object workflow, the blender version installed in local computers
+have problems reading the fbx files. This causes the gameobjects to lose their mesh data and become invisible.
+If that occurs to you visit https://github.com/keijiro/KinoBinary/blob/master/Assets/Standard%20Assets/Characters/ThirdPersonCharacter/Models/Ethan.fbx
+and download the fbx file. Import it back to project and restore the missing Ethan mesh data.
 
 Contact : burakhandogan93@gmail.com
 
