@@ -21,9 +21,10 @@ seperate projects doing the same thing.
 - Determining the accuracy of trainings (python side)
 - Give a feedback accordingly (python side)
 
-# Steps to work with this Project
+# Steps to work with this Project. In general, LFS is crucial to work with Unity since some most files are larger than 10 mb and some larger than 100 mb. 
 
-1- Git clone repository, teslasuit_newapi branch
+0- git lfs install
+1- git clone repository, teslasuit_newapi branch
 2- git lfs fetch -all
 3- git lfs pull
 4- Open the project in Unity, 
