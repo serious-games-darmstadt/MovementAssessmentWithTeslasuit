@@ -115,7 +115,7 @@ public class TsReplaySaver : MonoBehaviour
 
     private bool shouldSave;
     private bool isReplayPlaying;
-    private float timeInterval = 0.5f;
+    private float timeInterval = 0.001f;
 
     private ReplayObject infoToJSon;
 
