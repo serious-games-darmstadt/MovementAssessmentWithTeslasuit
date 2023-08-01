@@ -17,9 +17,9 @@ public class TsCamera : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        transform.LookAt(Ethan.transform);
+      //  transform.LookAt(Ethan.transform);
         Vector3 pos = Ethan.transform.position;
-        transform.position = new Vector3(transform.position.x, pos.y, transform.position.z);
+   //     transform.position = new Vector3(transform.position.x, pos.y);
     }
 
     public void RotateAround180()
