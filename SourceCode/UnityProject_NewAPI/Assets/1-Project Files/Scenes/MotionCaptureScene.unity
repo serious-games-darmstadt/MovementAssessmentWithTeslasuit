@@ -9296,7 +9296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_motionProvider: {fileID: 1646126920}
-  m_avatarSettings: {fileID: 11400000, guid: 2bd31de50698df143ad423c34caa714f, type: 2}
+  m_avatarSettings: {fileID: 11400000, guid: f74af6d2b8db2e24497226a454dca29b, type: 2}
   IPose: 0
   Replay: 0
 --- !u!1 &2096608321

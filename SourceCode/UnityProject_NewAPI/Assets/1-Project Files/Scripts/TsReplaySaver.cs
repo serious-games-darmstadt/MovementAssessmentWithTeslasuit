@@ -108,7 +108,7 @@ using System;
 
 public class TsReplaySaver : MonoBehaviour
 {
-    string path = @"C:\StudentProjects\Burakhan\Tesla Suit\Assets\JsonAttempts\";
+    string path = @"C:\Users\tatia\OneDrive\Dokumente\Masterthesis\Neu\MovementAssessmentWithTeslasuit\EvaluationData\JsonAttempts";
     string underScore = "_";
     public TMP_InputField inputName;
     public TsHumanAnimator avatarBoneInfo;
