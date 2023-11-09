@@ -108,7 +108,7 @@ using System;
 
 public class TsReplaySaver : MonoBehaviour
 {
-    string path = @"C:\StudentProjects\Burakhan\Tesla Suit\Assets\JsonAttempts\";
+    string path; //@"C:\StudentProjects\Burakhan\Tesla Suit\Assets\JsonAttempts\";
     string underScore = "_";
     public TMP_InputField inputName;
     public TsHumanAnimator avatarBoneInfo;
@@ -148,6 +148,8 @@ public class TsReplaySaver : MonoBehaviour
   
     void Start()
     {
+        path = Application.dataPath + "/JsonAttempts/";
+
         dataGateway = FindObjectOfType<DataGateway>();
         //CsvEditor.DetectCSV();
         FillReplayDropDown();
@@ -188,6 +190,7 @@ public class TsReplaySaver : MonoBehaviour
     {
         //Get all Jsons
         DirectoryInfo dir = new System.IO.DirectoryInfo(path);
+        Debug.Log("datapath: " + path);
         List<string> filenames = new List<string>();
         foreach(FileInfo f in dir.GetFiles())
         {
